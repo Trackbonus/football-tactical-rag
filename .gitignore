@@ -1,0 +1,27 @@
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Cachés y checkpoints de embeddings
+*.npz
+*.tmp
+
+# Modelos descargados localmente
+models/
+*.onnx
+
+# Configuración local y credenciales
+.env
+.env.*
+
+# Archivos del sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/
